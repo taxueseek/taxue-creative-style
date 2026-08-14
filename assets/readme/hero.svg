@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">踏雪创意风格</title>
+  <desc id="desc">影像指令编译器：把踏雪风格编译成模型能精确执行的视觉指令。右侧是本库 F1 宋代极简山水的几何结构。</desc>
+
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F7F1E6"/>
+      <stop offset="100%" stop-color="#EFE6D6"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C5D2CC"/>
+      <stop offset="70%" stop-color="#A8BDB6"/>
+      <stop offset="100%" stop-color="#8EA8A2"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9BB3AD"/>
+      <stop offset="100%" stop-color="#7E9892"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="400" rx="22" fill="url(#paper)"/>
+  <rect x="0" y="48" width="4" height="304" fill="#C3272B"/>
+
+  <g id="title-block" transform="translate(56 54)">
+    <text x="0" y="18" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#8B8174" letter-spacing="3">IMAGE PROMPT COMPILER</text>
+    <text x="0" y="82" font-family="Songti SC, STSong, Songti TC, Georgia, serif" font-size="52" fill="#2C2C2C">踏雪创意风格</text>
+    <text x="0" y="122" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" fill="#3A3530">把独特的踏雪风格，编译成可执行的视觉指令</text>
+    <text x="0" y="150" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" fill="#8B8174">留白是主体 · 克制 · 纸感优先 · 文字即设计</text>
+
+    <g transform="translate(0 186)">
+      <rect width="108" height="30" rx="4" fill="#FAF6EE" stroke="#D4CBB8"/>
+      <text x="54" y="20" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#2C2C2C">7 家族</text>
+      <rect x="120" width="108" height="30" rx="4" fill="#FAF6EE" stroke="#D4CBB8"/>
+      <text x="174" y="20" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#2C2C2C">32 变体</text>
+      <rect x="240" width="108" height="30" rx="4" fill="#FAF6EE" stroke="#D4CBB8"/>
+      <text x="294" y="20" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#C3272B">4 管线</text>
+    </g>
+
+    <g transform="translate(0 250)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">
+      <text x="0" y="0" fill="#2C2C2C">意图</text>
+      <text x="42" y="0" fill="#C4B8A8">→</text>
+      <text x="64" y="0" fill="#2C2C2C">家族</text>
+      <text x="106" y="0" fill="#C4B8A8">→</text>
+      <text x="128" y="0" fill="#2C2C2C">指令</text>
+      <text x="170" y="0" fill="#C4B8A8">→</text>
+      <text x="192" y="0" fill="#C3272B">成图</text>
+    </g>
+  </g>
+
+  <g id="project-proof" transform="translate(628 40)">
+    <rect width="528" height="320" rx="16" fill="#E8DFD0" stroke="#D4CBB8"/>
+    <clipPath id="scene">
+      <rect x="10" y="10" width="508" height="300" rx="10"/>
+    </clipPath>
+    <g clip-path="url(#scene)">
+      <rect x="10" y="10" width="508" height="300" fill="url(#sky)"/>
+      <rect x="10" y="186" width="300" height="124" fill="url(#water)"/>
+
+      <polygon points="86,210 148,92 214,210" fill="#A8BDB6"/>
+      <polygon points="168,210 236,78 308,210" fill="#7E9892"/>
+      <polygon points="48,218 108,128 176,218" fill="#5C7874"/>
+      <polygon points="118,222 178,118 244,222" fill="#3E5855"/>
+      <polygon points="28,228 72,164 124,228" fill="#2C4442"/>
+
+      <ellipse cx="196" cy="196" rx="18" ry="5" fill="#3E5855" opacity="0.55"/>
+      <line x1="190" y1="196" x2="202" y2="196" stroke="#2C2C2C" stroke-width="1.4"/>
+      <rect x="193" y="191" width="6" height="5" fill="#2C2C2C"/>
+
+      <path d="M196 316
+               C176 250 214 198 278 156
+               C348 108 428 72 528 48
+               L528 320 L196 320 Z" fill="#F4EEE4"/>
+      <path d="M248 300 C268 268 292 246 328 228" fill="none" stroke="#2C2C2C" stroke-width="1.2" opacity="0.35" stroke-linecap="round"/>
+      <path d="M276 312 C304 278 336 256 380 238" fill="none" stroke="#2C2C2C" stroke-width="1" opacity="0.22" stroke-linecap="round"/>
+    </g>
+    <text x="24" y="300" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8B8174">F1 · 宋代极简山水</text>
+    <rect x="476" y="268" width="28" height="28" rx="2" fill="#C3272B"/>
+    <text x="490" y="287" text-anchor="middle" font-family="Kaiti SC, STKaiti, Songti SC, serif" font-size="14" fill="#F4EEE4">雪</text>
+  </g>
+</svg>

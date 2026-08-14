@@ -1,5 +1,14 @@
 <p align="center">
-  <img src="./assets/readme/hero.png" width="100%" alt="踏雪创意风格：把踏雪风格编译成模型能精确执行的视觉指令">
+
+![踏雪创意风格：影像指令编译器。把踏雪风格编译成可执行的视觉指令。右侧为 F1 宋代极简山水成图。](./assets/readme/hero.png)
+
+</p>
+
+<p align="center">
+  <a href="#四种能力">能力</a> ·
+  <a href="#怎么工作">机制</a> ·
+  <a href="#开始使用">开始使用</a> ·
+  <a href="#七个家族">风格库</a>
 </p>
 
 # 踏雪创意风格
@@ -7,14 +16,9 @@
 把独特的「踏雪风格」变成模型能精确执行的视觉指令。
 
 <p align="center">
-  <img src="./gallery/sample-03.jpg" width="31%" alt="宋代极简山水">
-  <img src="./gallery/sample-04.jpg" width="31%" alt="留白海报 桃花源">
-  <img src="./gallery/sample-02.jpg" width="31%" alt="治愈插画 晚秋">
-</p>
-<p align="center">
-  <img src="./gallery/sample-01.jpg" width="31%" alt="几何碑刻">
-  <img src="./gallery/sample-06.jpg" width="31%" alt="水墨叙事 踏雪寻仙">
-  <img src="./assets/readme/specimen-watercolor.jpg" width="31%" alt="水彩留白">
+
+![成图标本：桃花源、宋代极简山水、晚秋、踏雪寻仙、几何碑刻、水彩留白](./assets/readme/showcase.png)
+
 </p>
 
 ## 四种能力
@@ -40,7 +44,7 @@
 ## 怎么工作
 
 <p align="center">
-  <img src="./assets/readme/workflow.svg" width="100%" alt="从意图到成图：识别意图，选定家族，编译七维指令，出图自检">
+  <img src="./assets/readme/workflow.svg" width="100%" alt="一条意图的编译路径：意图、家族、指令、成图">
 </p>
 
 它是影像指令编译器。输入是意图，输出是模型能执行的视觉指令。质量取决于四件事：意图识别是否准、风格模板是否准、参数是否锁死、出图后有没有对照禁忌检查。
@@ -85,20 +89,6 @@ npx skills add taxueseek/taxue-creative-style
 - `memory/user-preferences.md` 只记偏好，不记出图内容，不提交
 - `references/prompt-archive.md` 是本地版本归档，每次交付自动追加
 - 仓库已忽略 `memory/` 和测试文件
-
-<details>
-<summary>目录结构</summary>
-
-```
-taxue-creative-style/
-├── SKILL.md
-├── gallery/
-├── assets/readme/
-├── references/
-└── memory/
-```
-
-</details>
 
 ## License
 
