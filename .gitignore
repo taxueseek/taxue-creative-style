@@ -1,0 +1,9 @@
+# 本地学习文件：个性化偏好与使用历史，不入库
+memory/
+user-preferences.md
+
+# 本地备份与实测
+_backup_*
+test-prompts.md
+
+.DS_Store
