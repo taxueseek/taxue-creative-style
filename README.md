@@ -6,6 +6,7 @@
 
 <p align="center">
   <a href="#成图标本">成图</a> ·
+  <a href="./gallery/README.md">原图</a> ·
   <a href="#四种能力">能力</a> ·
   <a href="#九个家族">家族</a> ·
   <a href="#怎么工作">怎么工作</a> ·
@@ -18,27 +19,52 @@
 
 ## 成图标本
 
-真实出图，按原比例完整展示。
+主页是缩小预览，点图看原图，或打开 [原图页](./gallery/README.md)。
 
-![F2 留白海报 · 桃花源](./gallery/sample-04.jpg)
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
 
-<p align="center">F2 留白海报 · 桃花源</p>
+[![F2 留白海报 · 桃花源](./assets/readme/thumbs/sample-04.jpg)](./gallery/sample-04.jpg)
 
-![F1 笔意水墨 · 宋代极简山水](./gallery/sample-03.jpg)
+F2 留白海报 · 桃花源
 
-<p align="center">F1 笔意水墨 · 宋代极简山水</p>
+    </td>
+    <td width="50%" align="center" valign="top">
 
-![F4 治愈插画 · 晚秋](./gallery/sample-02.jpg)
+[![F4 治愈插画 · 晚秋](./assets/readme/thumbs/sample-02.jpg)](./gallery/sample-02.jpg)
 
-<p align="center">F4 治愈插画 · 晚秋</p>
+F4 治愈插画 · 晚秋
 
-![F8 概念海报 · 踏雪寻仙](./gallery/sample-06.jpg)
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
 
-<p align="center">F8 概念海报 · 踏雪寻仙</p>
+[![F1 笔意水墨 · 宋代极简山水](./assets/readme/thumbs/sample-03.jpg)](./gallery/sample-03.jpg)
 
-![F2 留白海报 · 欧普线描貔貅](./gallery/sample-01.jpg)
+F1 笔意水墨 · 宋代极简山水
 
-<p align="center">F2 留白海报 · 欧普线描貔貅</p>
+    </td>
+    <td width="50%" align="center" valign="top">
+
+[![F2 留白海报 · 欧普线描貔貅](./assets/readme/thumbs/sample-01.jpg)](./gallery/sample-01.jpg)
+
+F2 留白海报 · 欧普线描貔貅
+
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+
+[![F8 概念海报 · 踏雪寻仙](./assets/readme/thumbs/sample-06.jpg)](./gallery/sample-06.jpg)
+
+F8 概念海报 · 踏雪寻仙
+
+</p>
+
+<p align="center"><a href="./gallery/README.md">看完整原图 →</a></p>
 
 ## 四种能力
 
