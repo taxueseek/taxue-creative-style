@@ -19,50 +19,24 @@
 
 ## 成图标本
 
-主页是缩小预览，点图看原图，或打开 [原图页](./gallery/README.md)。
-
-<table>
-  <tr>
-    <td width="50%" align="center" valign="top">
-
-[![F2 留白海报 · 桃花源](./assets/readme/thumbs/sample-04.jpg)](./gallery/sample-04.jpg)
-
-F2 留白海报 · 桃花源
-
-    </td>
-    <td width="50%" align="center" valign="top">
-
-[![F4 治愈插画 · 晚秋](./assets/readme/thumbs/sample-02.jpg)](./gallery/sample-02.jpg)
-
-F4 治愈插画 · 晚秋
-
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-
-[![F1 笔意水墨 · 宋代极简山水](./assets/readme/thumbs/sample-03.jpg)](./gallery/sample-03.jpg)
-
-F1 笔意水墨 · 宋代极简山水
-
-    </td>
-    <td width="50%" align="center" valign="top">
-
-[![F2 留白海报 · 欧普线描貔貅](./assets/readme/thumbs/sample-01.jpg)](./gallery/sample-01.jpg)
-
-F2 留白海报 · 欧普线描貔貅
-
-    </td>
-  </tr>
-</table>
+缩小预览，点图看原图。完整作品在 [原图页](./gallery/README.md)。
 
 <p align="center">
-
-[![F8 概念海报 · 踏雪寻仙](./assets/readme/thumbs/sample-06.jpg)](./gallery/sample-06.jpg)
-
-F8 概念海报 · 踏雪寻仙
-
+<a href="./gallery/sample-04.jpg"><img src="./assets/readme/thumbs/sample-04.jpg" width="48%" alt="F2 留白海报 · 桃花源"></a>
+<a href="./gallery/sample-02.jpg"><img src="./assets/readme/thumbs/sample-02.jpg" width="48%" alt="F4 治愈插画 · 晚秋"></a>
 </p>
+<p align="center">F2 桃花源　·　F4 晚秋</p>
+
+<p align="center">
+<a href="./gallery/sample-03.jpg"><img src="./assets/readme/thumbs/sample-03.jpg" width="48%" alt="F1 宋代极简山水"></a>
+<a href="./gallery/sample-01.jpg"><img src="./assets/readme/thumbs/sample-01.jpg" width="48%" alt="F2 欧普线描貔貅"></a>
+</p>
+<p align="center">F1 宋代极简山水　·　F2 欧普线描貔貅</p>
+
+<p align="center">
+<a href="./gallery/sample-06.jpg"><img src="./assets/readme/thumbs/sample-06.jpg" width="62%" alt="F8 概念海报 · 踏雪寻仙"></a>
+</p>
+<p align="center">F8 概念海报 · 踏雪寻仙</p>
 
 <p align="center"><a href="./gallery/README.md">看完整原图 →</a></p>
 
