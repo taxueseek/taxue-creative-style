@@ -1,10 +1,11 @@
 <p align="center">
 
-![踏雪创意风格：影像风格引擎。你说想画什么，它写成模型能听懂的指令。右侧为 F1 宋代极简山水成图。](./assets/readme/hero.png)
+![踏雪创意风格：影像风格引擎。你说想画什么，它写成模型能听懂的指令。](./assets/readme/hero.png)
 
 </p>
 
 <p align="center">
+  <a href="#成图标本">成图</a> ·
   <a href="#四种能力">能力</a> ·
   <a href="#九个家族">家族</a> ·
   <a href="#怎么工作">怎么工作</a> ·
@@ -15,11 +16,29 @@
 
 你说想画什么，它写成模型能听懂的视觉指令。
 
-<p align="center">
+## 成图标本
 
-![成图标本：桃花源、宋代极简山水、晚秋、概念海报踏雪寻仙、欧普线描、水彩留白](./assets/readme/showcase.png)
+真实出图，按原比例完整展示。
 
-</p>
+![F2 留白海报 · 桃花源](./gallery/sample-04.jpg)
+
+<p align="center">F2 留白海报 · 桃花源</p>
+
+![F1 笔意水墨 · 宋代极简山水](./gallery/sample-03.jpg)
+
+<p align="center">F1 笔意水墨 · 宋代极简山水</p>
+
+![F4 治愈插画 · 晚秋](./gallery/sample-02.jpg)
+
+<p align="center">F4 治愈插画 · 晚秋</p>
+
+![F8 概念海报 · 踏雪寻仙](./gallery/sample-06.jpg)
+
+<p align="center">F8 概念海报 · 踏雪寻仙</p>
+
+![F2 留白海报 · 欧普线描貔貅](./gallery/sample-01.jpg)
+
+<p align="center">F2 留白海报 · 欧普线描貔貅</p>
 
 ## 四种能力
 
