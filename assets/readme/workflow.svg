@@ -1,54 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">从意图到成图</title>
-  <desc id="desc">意图识别、选定家族、七维编译指令、出图后对照禁忌自检。</desc>
-  <rect width="1200" height="320" rx="22" fill="#F4EEE4"/>
-  <text x="48" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8B8174" letter-spacing="2.5">HOW IT WORKS</text>
-  <text x="48" y="70" font-family="Songti SC, STSong, Georgia, serif" font-size="24" fill="#2C2C2C">一条意图的编译路径</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">从一句话到成图</title>
+  <desc id="desc">先听清你要什么，再选对风格家族，写成可执行的视觉指令，出图后对照禁忌检查。</desc>
+  <rect width="1200" height="300" rx="22" fill="#F4EEE4"/>
+  <text x="48" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#8B8174" letter-spacing="2.5">HOW IT WORKS</text>
+  <text x="48" y="72" font-family="Songti SC, STSong, Georgia, serif" font-size="26" fill="#2C2C2C">从一句话到成图</text>
 
   <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
     <g transform="translate(48 100)">
-      <rect width="240" height="100" rx="10" fill="#FAF6EE" stroke="#D4CBB8"/>
-      <rect width="4" height="100" fill="#2C2C2C"/>
-      <text x="20" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8B8174">01</text>
-      <text x="20" y="60" font-family="Songti SC, STSong, Georgia, serif" font-size="20" fill="#2C2C2C">意图</text>
-      <text x="20" y="84" font-size="13" fill="#6B645C">出图 · 优化 · 从零写 · 记住</text>
+      <rect width="240" height="108" rx="10" fill="#FAF6EE" stroke="#D4CBB8"/>
+      <rect width="4" height="108" fill="#2C2C2C"/>
+      <text x="20" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#8B8174">01</text>
+      <text x="20" y="64" font-family="Songti SC, STSong, Georgia, serif" font-size="22" fill="#2C2C2C">听清意图</text>
+      <text x="20" y="88" font-size="14" fill="#6B645C">出图、改词、从零写</text>
     </g>
     <g transform="translate(336 100)">
-      <rect width="240" height="100" rx="10" fill="#FAF6EE" stroke="#D4CBB8"/>
-      <rect width="4" height="100" fill="#2C2C2C"/>
-      <text x="20" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8B8174">02</text>
-      <text x="20" y="60" font-family="Songti SC, STSong, Georgia, serif" font-size="20" fill="#2C2C2C">家族</text>
-      <text x="20" y="84" font-size="13" fill="#6B645C">先定调性，再定变体</text>
+      <rect width="240" height="108" rx="10" fill="#FAF6EE" stroke="#D4CBB8"/>
+      <rect width="4" height="108" fill="#2C2C2C"/>
+      <text x="20" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#8B8174">02</text>
+      <text x="20" y="64" font-family="Songti SC, STSong, Georgia, serif" font-size="22" fill="#2C2C2C">选对家族</text>
+      <text x="20" y="88" font-size="14" fill="#6B645C">先定调性，再定变体</text>
     </g>
     <g transform="translate(624 100)">
-      <rect width="240" height="100" rx="10" fill="#FAF6EE" stroke="#D4CBB8"/>
-      <rect width="4" height="100" fill="#2C2C2C"/>
-      <text x="20" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8B8174">03</text>
-      <text x="20" y="60" font-family="Songti SC, STSong, Georgia, serif" font-size="20" fill="#2C2C2C">指令</text>
-      <text x="20" y="84" font-size="13" fill="#6B645C">七维补全 · 锁色板与留白</text>
+      <rect width="240" height="108" rx="10" fill="#FAF6EE" stroke="#D4CBB8"/>
+      <rect width="4" height="108" fill="#2C2C2C"/>
+      <text x="20" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#8B8174">03</text>
+      <text x="20" y="64" font-family="Songti SC, STSong, Georgia, serif" font-size="22" fill="#2C2C2C">写成指令</text>
+      <text x="20" y="88" font-size="14" fill="#6B645C">锁死比例、留白、颜色</text>
     </g>
     <g transform="translate(912 100)">
-      <rect width="240" height="100" rx="10" fill="#FAF6EE" stroke="#D4CBB8"/>
-      <rect width="4" height="100" fill="#C3272B"/>
-      <text x="20" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8B8174">04</text>
-      <text x="20" y="60" font-family="Songti SC, STSong, Georgia, serif" font-size="20" fill="#2C2C2C">成图</text>
-      <text x="20" y="84" font-size="13" fill="#6B645C">对照禁忌自检，过关才交</text>
+      <rect width="240" height="108" rx="10" fill="#FAF6EE" stroke="#D4CBB8"/>
+      <rect width="4" height="108" fill="#C3272B"/>
+      <text x="20" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#8B8174">04</text>
+      <text x="20" y="64" font-family="Songti SC, STSong, Georgia, serif" font-size="22" fill="#2C2C2C">出图自检</text>
+      <text x="20" y="88" font-size="14" fill="#6B645C">对照禁忌，过关才交</text>
     </g>
   </g>
 
-  <g fill="#C4B8A8" font-size="18" font-family="ui-monospace, Menlo, monospace">
-    <text x="300" y="156">→</text>
-    <text x="588" y="156">→</text>
-    <text x="876" y="156">→</text>
+  <g fill="#C4B8A8" font-size="20" font-family="ui-monospace, Menlo, monospace">
+    <text x="300" y="162">→</text>
+    <text x="588" y="162">→</text>
+    <text x="876" y="162">→</text>
   </g>
 
-  <g transform="translate(48 228)">
-    <rect width="1104" height="60" rx="10" fill="#FAF6EE" stroke="#D4CBB8"/>
-    <text x="24" y="26" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8B8174">DNA</text>
-    <text x="24" y="46" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="13" fill="#3A3530">留白第一 · 克制 · 纸感 · 色彩纪律</text>
-    <text x="400" y="26" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8B8174">diagnose</text>
-    <text x="400" y="46" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="13" fill="#3A3530">主体 构图 光影 色彩 质感 情绪 约束</text>
-    <text x="780" y="26" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8B8174">memory</text>
-    <text x="780" y="46" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="13" fill="#3A3530">只记偏好，不记出图内容，留在本机</text>
+  <g transform="translate(48 230)">
+    <rect width="1104" height="44" rx="10" fill="#FAF6EE" stroke="#D4CBB8"/>
+    <text x="24" y="28" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="15" fill="#3A3530">封面和头图不是第五种能力，叠在任何家族上。偏好只记在你本机。</text>
   </g>
 </svg>

@@ -1,17 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
-  <title id="title">七个风格家族</title>
-  <desc id="desc">笔意水墨、留白海报、城市建筑、治愈插画、东方古典、氛围实验、写实摄影。</desc>
-  <rect width="1200" height="220" rx="22" fill="#F4EEE4"/>
-  <text x="48" y="38" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8B8174" letter-spacing="2.5">STYLE LIBRARY</text>
-  <text x="48" y="68" font-family="Songti SC, STSong, Georgia, serif" font-size="22" fill="#2C2C2C">七个家族，先定调性再填模板</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">九个风格家族</title>
+  <desc id="desc">笔意水墨、留白海报、城市建筑、治愈插画、东方古典、氛围实验、写实摄影、概念海报、照片转艺术。</desc>
+  <rect width="1200" height="430" rx="22" fill="#F4EEE4"/>
+  <text x="48" y="38" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#8B8174" letter-spacing="2.5">STYLE LIBRARY</text>
+  <text x="48" y="72" font-family="Songti SC, STSong, Georgia, serif" font-size="26" fill="#2C2C2C">九个家族，先定调性再动手</text>
 
-  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
-    <g transform="translate(48 92)"><rect width="148" height="100" rx="8" fill="#FAF6EE" stroke="#D4CBB8"/><text x="14" y="28" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#8B8174">F1</text><text x="14" y="56" font-family="Songti SC, STSong, Georgia, serif" font-size="18" fill="#2C2C2C">笔意水墨</text><text x="14" y="80" font-size="12" fill="#8B8174">孤寂 · 留白</text></g>
-    <g transform="translate(208 92)"><rect width="148" height="100" rx="8" fill="#FAF6EE" stroke="#D4CBB8"/><text x="14" y="28" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#8B8174">F2</text><text x="14" y="56" font-family="Songti SC, STSong, Georgia, serif" font-size="18" fill="#2C2C2C">留白海报</text><text x="14" y="80" font-size="12" fill="#8B8174">概念 · 克制</text></g>
-    <g transform="translate(368 92)"><rect width="148" height="100" rx="8" fill="#FAF6EE" stroke="#D4CBB8"/><text x="14" y="28" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#8B8174">F3</text><text x="14" y="56" font-family="Songti SC, STSong, Georgia, serif" font-size="18" fill="#2C2C2C">城市建筑</text><text x="14" y="80" font-size="12" fill="#8B8174">天气 · 秩序</text></g>
-    <g transform="translate(528 92)"><rect width="148" height="100" rx="8" fill="#FAF6EE" stroke="#D4CBB8"/><text x="14" y="28" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#8B8174">F4</text><text x="14" y="56" font-family="Songti SC, STSong, Georgia, serif" font-size="18" fill="#2C2C2C">治愈插画</text><text x="14" y="80" font-size="12" fill="#8B8174">日常 · 手作</text></g>
-    <g transform="translate(688 92)"><rect width="148" height="100" rx="8" fill="#FAF6EE" stroke="#D4CBB8"/><text x="14" y="28" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#8B8174">F5</text><text x="14" y="56" font-family="Songti SC, STSong, Georgia, serif" font-size="18" fill="#2C2C2C">东方古典</text><text x="14" y="80" font-size="12" fill="#8B8174">韵味 · 厚度</text></g>
-    <g transform="translate(848 92)"><rect width="148" height="100" rx="8" fill="#FAF6EE" stroke="#D4CBB8"/><text x="14" y="28" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#8B8174">F6</text><text x="14" y="56" font-family="Songti SC, STSong, Georgia, serif" font-size="18" fill="#2C2C2C">氛围实验</text><text x="14" y="80" font-size="12" fill="#8B8174">神秘 · 电影</text></g>
-    <g transform="translate(1008 92)"><rect width="144" height="100" rx="8" fill="#FAF6EE" stroke="#D4CBB8"/><text x="14" y="28" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#8B8174">F7</text><text x="14" y="56" font-family="Songti SC, STSong, Georgia, serif" font-size="18" fill="#2C2C2C">写实摄影</text><text x="14" y="80" font-size="12" fill="#8B8174">现场 · 胶片</text></g>
+  <g font-family="Songti SC, STSong, Georgia, serif" fill="#2C2C2C">
+    <g transform="translate(48 96)">
+      <rect width="352" height="88" rx="10" fill="#FAF6EE" stroke="#D4CBB8"/>
+      <text x="22" y="36" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#8B8174">F1</text>
+      <text x="22" y="66" font-size="28">笔意水墨</text>
+    </g>
+    <g transform="translate(424 96)">
+      <rect width="352" height="88" rx="10" fill="#FAF6EE" stroke="#D4CBB8"/>
+      <text x="22" y="36" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#8B8174">F2</text>
+      <text x="22" y="66" font-size="28">留白海报</text>
+    </g>
+    <g transform="translate(800 96)">
+      <rect width="352" height="88" rx="10" fill="#FAF6EE" stroke="#D4CBB8"/>
+      <text x="22" y="36" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#8B8174">F3</text>
+      <text x="22" y="66" font-size="28">城市建筑</text>
+    </g>
+
+    <g transform="translate(48 200)">
+      <rect width="352" height="88" rx="10" fill="#FAF6EE" stroke="#D4CBB8"/>
+      <text x="22" y="36" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#8B8174">F4</text>
+      <text x="22" y="66" font-size="28">治愈插画</text>
+    </g>
+    <g transform="translate(424 200)">
+      <rect width="352" height="88" rx="10" fill="#FAF6EE" stroke="#D4CBB8"/>
+      <text x="22" y="36" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#8B8174">F5</text>
+      <text x="22" y="66" font-size="28">东方古典</text>
+    </g>
+    <g transform="translate(800 200)">
+      <rect width="352" height="88" rx="10" fill="#FAF6EE" stroke="#D4CBB8"/>
+      <text x="22" y="36" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#8B8174">F6</text>
+      <text x="22" y="66" font-size="28">氛围实验</text>
+    </g>
+
+    <g transform="translate(48 304)">
+      <rect width="352" height="88" rx="10" fill="#FAF6EE" stroke="#D4CBB8"/>
+      <text x="22" y="36" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#8B8174">F7</text>
+      <text x="22" y="66" font-size="28">写实摄影</text>
+    </g>
+    <g transform="translate(424 304)">
+      <rect width="352" height="88" rx="10" fill="#FAF6EE" stroke="#C3272B"/>
+      <rect width="4" height="88" rx="2" fill="#C3272B"/>
+      <text x="22" y="36" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#C3272B">F8</text>
+      <text x="22" y="66" font-size="28">概念海报</text>
+    </g>
+    <g transform="translate(800 304)">
+      <rect width="352" height="88" rx="10" fill="#FAF6EE" stroke="#C3272B"/>
+      <rect width="4" height="88" rx="2" fill="#C3272B"/>
+      <text x="22" y="36" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#C3272B">F9</text>
+      <text x="22" y="66" font-size="28">照片转艺术</text>
+    </g>
   </g>
 </svg>
