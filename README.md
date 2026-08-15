@@ -39,12 +39,12 @@
 
 家族格子之外，还有这些成图。点图看原图。
 
-![更多成图：八仙、皮影戏、素三彩、平安喜乐、文人水墨、简历、魅力女郎、天宫、欧普貔貅](./assets/readme/more-grid.png)
+![更多成图：八仙、皮影戏、青花瓷、平安喜乐、文人水墨、简历、魅力女郎、天宫、欧普貔貅](./assets/readme/more-grid.png)
 
 <p align="center">
 <a href="./gallery/more/baxian.jpg">八仙</a> ·
 <a href="./gallery/more/piying.jpg">皮影戏</a> ·
-<a href="./gallery/more/sucancai.jpg">素三彩</a> ·
+<a href="./gallery/more/qinghua.jpg">青花瓷</a> ·
 <a href="./gallery/more/pingan.jpg">平安喜乐</a> ·
 <a href="./gallery/more/wenren.jpg">文人水墨</a> ·
 <a href="./gallery/more/jianli.jpg">简历</a> ·

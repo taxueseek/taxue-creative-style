@@ -50,9 +50,9 @@
 
 ![皮影戏](./more/piying.jpg)
 
-### 素三彩
+### 青花瓷
 
-![素三彩](./more/sucancai.jpg)
+![青花瓷](./more/qinghua.jpg)
 
 ### 平安喜乐
 
