@@ -37,24 +37,12 @@
 <a href="./gallery/README.md">全部原图</a>
 </p>
 
-九宫格是家族对照。下面这些是原来首页的成图，有的不好单独占一格，也留着。
+留白海报里还有一种欧普线描，竖图，单独看更清楚。
 
 <p align="center">
-<a href="./gallery/sample-04.jpg"><img src="./assets/readme/thumbs/sample-04.jpg" width="48%" alt="F2 留白海报 · 桃花源"></a>
-<a href="./gallery/sample-02.jpg"><img src="./assets/readme/thumbs/sample-02.jpg" width="48%" alt="F4 治愈插画 · 晚秋"></a>
+<a href="./gallery/sample-01.jpg"><img src="./assets/readme/thumbs/sample-01.jpg" width="42%" alt="F2 欧普线描 · 貔貅"></a>
 </p>
-<p align="center">F2 桃花源　·　F4 晚秋</p>
-
-<p align="center">
-<a href="./gallery/sample-03.jpg"><img src="./assets/readme/thumbs/sample-03.jpg" width="48%" alt="F1 宋代极简山水"></a>
-<a href="./gallery/sample-01.jpg"><img src="./assets/readme/thumbs/sample-01.jpg" width="48%" alt="F2 欧普线描貔貅"></a>
-</p>
-<p align="center">F1 宋代极简山水　·　F2 欧普线描貔貅</p>
-
-<p align="center">
-<a href="./gallery/sample-06.jpg"><img src="./assets/readme/thumbs/sample-06.jpg" width="62%" alt="F8 概念海报 · 踏雪寻仙"></a>
-</p>
-<p align="center">F8 概念海报 · 踏雪寻仙</p>
+<p align="center">F2 欧普线描 · 貔貅</p>
 
 ## 四种能力
 
