@@ -37,12 +37,21 @@
 <a href="./gallery/README.md">全部原图</a>
 </p>
 
-留白海报里还有一种欧普线描，竖图，单独看更清楚。
+家族格子之外，还有这些成图。点图看原图。
+
+![更多成图：八仙、皮影戏、素三彩、平安喜乐、文人水墨、简历、魅力女郎、天宫、欧普貔貅](./assets/readme/more-grid.png)
 
 <p align="center">
-<a href="./gallery/sample-01.jpg"><img src="./assets/readme/thumbs/sample-01.jpg" width="42%" alt="F2 欧普线描 · 貔貅"></a>
+<a href="./gallery/more/baxian.jpg">八仙</a> ·
+<a href="./gallery/more/piying.jpg">皮影戏</a> ·
+<a href="./gallery/more/sucancai.jpg">素三彩</a> ·
+<a href="./gallery/more/pingan.jpg">平安喜乐</a> ·
+<a href="./gallery/more/wenren.jpg">文人水墨</a> ·
+<a href="./gallery/more/jianli.jpg">简历</a> ·
+<a href="./gallery/more/meili.jpg">魅力女郎</a> ·
+<a href="./gallery/more/tiangong.jpg">天宫</a> ·
+<a href="./gallery/more/pixiu.jpg">欧普貔貅</a>
 </p>
-<p align="center">F2 欧普线描 · 貔貅</p>
 
 ## 四种能力
 

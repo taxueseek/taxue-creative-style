@@ -40,8 +40,40 @@
 
 ![F9 照片转艺术 · 绘本](./f9-photo-art.jpg)
 
-## F2 欧普线描 · 貔貅
+## 更多成图
 
-留白海报的另一种写法，竖图。
+### 八仙
 
-![F2 欧普线描 · 貔貅](./sample-01.jpg)
+![八仙](./more/baxian.jpg)
+
+### 皮影戏
+
+![皮影戏](./more/piying.jpg)
+
+### 素三彩
+
+![素三彩](./more/sucancai.jpg)
+
+### 平安喜乐
+
+![平安喜乐](./more/pingan.jpg)
+
+### 文人水墨
+
+![文人水墨](./more/wenren.jpg)
+
+### 简历
+
+![简历](./more/jianli.jpg)
+
+### 魅力女郎
+
+![魅力女郎](./more/meili.jpg)
+
+### 天宫
+
+![天宫](./more/tiangong.jpg)
+
+### 欧普貔貅
+
+![欧普貔貅](./more/pixiu.jpg)
