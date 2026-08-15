@@ -19,26 +19,23 @@
 
 ## 成图标本
 
-缩小预览，点图看原图。完整作品在 [原图页](./gallery/README.md)。
+九个家族，各一张经典成图。点家族编号看原图。
+
+![九个家族经典成图：笔意水墨、留白海报、城市建筑、治愈插画、东方古典、氛围实验、写实摄影、概念海报、照片转艺术](./assets/readme/families-grid.png)
 
 <p align="center">
-<a href="./gallery/sample-04.jpg"><img src="./assets/readme/thumbs/sample-04.jpg" width="48%" alt="F2 留白海报 · 桃花源"></a>
-<a href="./gallery/sample-02.jpg"><img src="./assets/readme/thumbs/sample-02.jpg" width="48%" alt="F4 治愈插画 · 晚秋"></a>
+<a href="./gallery/f1-ink.jpg">F1</a> ·
+<a href="./gallery/f2-blank.jpg">F2</a> ·
+<a href="./gallery/f3-city.jpg">F3</a> ·
+<a href="./gallery/f4-healing.jpg">F4</a> ·
+<a href="./gallery/f5-oriental.jpg">F5</a> ·
+<a href="./gallery/f6-atmosphere.jpg">F6</a> ·
+<a href="./gallery/f7-photo.jpg">F7</a> ·
+<a href="./gallery/f8-concept.jpg">F8</a> ·
+<a href="./gallery/f9-photo-art.jpg">F9</a>
+·
+<a href="./gallery/README.md">全部原图</a>
 </p>
-<p align="center">F2 桃花源　·　F4 晚秋</p>
-
-<p align="center">
-<a href="./gallery/sample-03.jpg"><img src="./assets/readme/thumbs/sample-03.jpg" width="48%" alt="F1 宋代极简山水"></a>
-<a href="./gallery/sample-01.jpg"><img src="./assets/readme/thumbs/sample-01.jpg" width="48%" alt="F2 欧普线描貔貅"></a>
-</p>
-<p align="center">F1 宋代极简山水　·　F2 欧普线描貔貅</p>
-
-<p align="center">
-<a href="./gallery/sample-06.jpg"><img src="./assets/readme/thumbs/sample-06.jpg" width="62%" alt="F8 概念海报 · 踏雪寻仙"></a>
-</p>
-<p align="center">F8 概念海报 · 踏雪寻仙</p>
-
-<p align="center"><a href="./gallery/README.md">看完整原图 →</a></p>
 
 ## 四种能力
 
@@ -62,11 +59,7 @@
 
 ## 九个家族
 
-<p align="center">
-  <img src="./assets/readme/families.svg" width="100%" alt="九个风格家族：笔意水墨、留白海报、城市建筑、治愈插画、东方古典、氛围实验、写实摄影、概念海报、照片转艺术">
-</p>
-
-先定家族，再定具体变体。不知道选哪个，直接说用途也行。
+上面九宫格就是九个家族的样子。先定家族，再定具体变体。不知道选哪个，直接说用途也行。
 
 - **F1 笔意水墨**　安静的人、猫、宋画、水墨。默认竖图。
 - **F2 留白海报**　节日、书法、概念海报、欧普线描。默认竖图。
