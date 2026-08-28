@@ -7,3 +7,7 @@ _backup_*
 test-prompts.md
 
 .DS_Store
+
+# 本地归档与回收站不入库
+.trash/
+__pycache__/
