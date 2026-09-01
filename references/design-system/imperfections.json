@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "effects": [
+    {"id": "fx_registration_drift", "name": "套印微偏移", "range_mm": [0.4, 1.5], "applies_to": ["two-plate print"], "contemporary_ok": true},
+    {"id": "fx_ink_bleed", "name": "油墨干边渗透", "range": "edge only, not a wash", "applies_to": ["silkscreen", "woodblock", "spot offset"], "contemporary_ok": true},
+    {"id": "fx_paper_fiber", "name": "纸纤维", "range": "visible at close range", "applies_to": ["all paper substrates"], "contemporary_ok": true},
+    {"id": "fx_uneven_density", "name": "着墨不匀", "range": "large solids and display type", "applies_to": ["print plates"], "contemporary_ok": true},
+    {"id": "fx_halftone_dots", "name": "可见网点", "range": "recognizable at thumbnail, dotted at close range", "applies_to": ["spot offset", "lithography"], "contemporary_ok": true},
+    {"id": "fx_dry_edge", "name": "干边断裂", "range": "stroke terminals", "applies_to": ["woodblock", "movable type"], "contemporary_ok": false},
+    {"id": "fx_scan_noise", "name": "扫描噪点", "range": "restrained", "applies_to": ["archival", "explicit vintage"], "contemporary_ok": false}
+  ],
+  "defaults": {
+    "contemporary_count": [0, 2],
+    "tactile_or_vintage_count": [2, 3],
+    "never_without_request": ["yellowed paper", "sepia", "distressed border", "nostalgic props", "fake age staining"]
+  }
+}

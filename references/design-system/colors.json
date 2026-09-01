@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "source": "Extracted from taxue-creative-style prompt-craft HEX anchors, F2-JS, F13, poster-studio cream-paper / cinnabar, visual-forge indigo. Not a copy of any external ink set.",
+  "substrates": [
+    {"id": "substrate_xuan_white", "name": "宣纸白", "hex": "#F5F0E8", "role": "substrate", "counts_as_ink": false, "use_for": ["ink wash", "calligraphy", "blank poster", "oriental", "unspecified paper families"]},
+    {"id": "substrate_newsprint", "name": "新闻纸灰", "hex": "#E8E4DC", "role": "substrate", "counts_as_ink": false, "use_for": ["contemporary editorial", "architecture", "city", "information poster"]},
+    {"id": "substrate_archive_card", "name": "档案卡米", "hex": "#F7F1E3", "role": "substrate", "counts_as_ink": false, "use_for": ["F13 archive", "solar-polaroid", "specimen", "field note"]},
+    {"id": "substrate_neutral_cool", "name": "冷白", "hex": "#FAFAF7", "role": "substrate", "counts_as_ink": false, "use_for": ["contemporary F2", "F8 on light ground", "crisp cultural"]},
+    {"id": "substrate_ink_black", "name": "墨黑反白", "hex": "#1A1A1A", "role": "substrate", "counts_as_ink": false, "use_for": ["F6", "F8 deep ground", "F2-OP", "seal residual", "assertive declaration"]}
+  ],
+  "defaults": {
+    "substrate_id": "substrate_xuan_white",
+    "style_direction": "contemporary_print",
+    "palette_id": "palette_songyan_zhusha",
+    "mode": "controlled_two_ink",
+    "dominant_percent": [70, 85],
+    "accent_percent": [15, 30],
+    "one_ink_when": ["explicit one-ink request", "explicit monochrome request", "one named ink without a second color", "F1 ink-wash family"],
+    "family_palette_when": ["family card already specifies a closed <=4 color set"],
+    "photography_when": ["taxue-photo-studio", "F7 photography", "F13-PL", "user asks photography or film"]
+  },
+  "inks": [
+    {"id": "ink_songyan", "name": "松烟", "hex": "#2C2C2C", "moods": ["ink", "architecture", "research", "calligraphy", "restraint"]},
+    {"id": "ink_zhusha", "name": "朱砂", "hex": "#C3272B", "moods": ["seal", "declaration", "festival", "civic", "punctuation"]},
+    {"id": "ink_zhpiao", "name": "朱磦", "hex": "#E34234", "moods": ["warmer seal", "new year", "poster accent"]},
+    {"id": "ink_shiqing", "name": "石青", "hex": "#4A5F7F", "moods": ["porcelain", "knowledge", "city mist", "quiet cultural"]},
+    {"id": "ink_dianlan", "name": "靛蓝", "hex": "#3D5A80", "moods": ["dye", "textile", "night editorial", "minguo"]},
+    {"id": "ink_zheshi", "name": "赭石", "hex": "#7D4327", "moods": ["earth", "travel", "tactile", "warm archive"]},
+    {"id": "ink_tenghuang", "name": "藤黄", "hex": "#C9A227", "moods": ["gilt", "ritual", "highlight only"]},
+    {"id": "ink_taolv", "name": "松石绿", "hex": "#7C9D96", "moods": ["healing", "observation", "quiet nature"]},
+    {"id": "ink_taiyuan", "name": "苔绿", "hex": "#5B7A5A", "moods": ["botanical", "archive", "F2 moss"]}
+  ],
+  "palettes": [
+    {"id": "palette_songyan", "mode": "pure_one_ink", "ink_ids": ["ink_songyan"]},
+    {"id": "palette_zhusha", "mode": "pure_one_ink", "ink_ids": ["ink_zhusha"]},
+    {"id": "palette_shiqing", "mode": "pure_one_ink", "ink_ids": ["ink_shiqing"]},
+    {"id": "palette_dianlan", "mode": "pure_one_ink", "ink_ids": ["ink_dianlan"]},
+    {"id": "palette_songyan_zhusha", "mode": "complementary_duotone", "ink_ids": ["ink_songyan", "ink_zhusha"]},
+    {"id": "palette_shiqing_zhusha", "mode": "complementary_duotone", "ink_ids": ["ink_shiqing", "ink_zhusha"]},
+    {"id": "palette_dianlan_zhusha", "mode": "overprint_duotone", "ink_ids": ["ink_dianlan", "ink_zhusha"]},
+    {"id": "palette_songyan_tenghuang", "mode": "chromatic_plus_black", "ink_ids": ["ink_songyan", "ink_tenghuang"]},
+    {"id": "palette_taolv_songyan", "mode": "chromatic_plus_black", "ink_ids": ["ink_taolv", "ink_songyan"]},
+    {"id": "palette_zheshi_songyan", "mode": "chromatic_plus_black", "ink_ids": ["ink_zheshi", "ink_songyan"]},
+    {"id": "palette_taiyuan_zheshi", "mode": "complementary_duotone", "ink_ids": ["ink_taiyuan", "ink_zheshi"]}
+  ]
+}

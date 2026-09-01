@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "tensions": [
+    {"id": "tension_relaxed", "name": "relaxed", "use_for": ["reflective", "travel", "summer", "leisure", "unspecified cultural", "solar-polaroid leftover evidence"], "rule": "exactly one strong focal event; the rest of the page releases. Uneven energy, not low energy."},
+    {"id": "tension_balanced", "name": "balanced", "use_for": ["ordinary events", "editorial information", "family default"], "rule": "one focal event, supporting type remains functional, empty paper stays visible."},
+    {"id": "tension_assertive", "name": "assertive", "use_for": ["declaration", "civic", "F8 word-as-image", "user asks forceful"], "rule": "the phrase or seal is the subject; supporting devices retreat."}
+  ],
+  "focal_events": [
+    {"id": "focal_oversized_type", "name": "oversized type", "visible": "one word or 2-8 characters occupy the visual center and collide with the object or paper"},
+    {"id": "focal_extreme_crop", "name": "extreme crop", "visible": "one object or body fragment crosses at least one page edge and occupies 45%-80%"},
+    {"id": "focal_overprint_collision", "name": "overprint collision", "visible": "two plates cross in one zone only; mixed dark is a physical overlap, not a third ink"},
+    {"id": "focal_scale_abnormality", "name": "abnormal scale", "visible": "one object is giant relative to type or to a second object; the rest stays quiet"},
+    {"id": "focal_evidence_crossing", "name": "evidence crossing an edge", "visible": "one physical remainder crosses the card, window, or paper edge; solar-polaroid / F13 default"}
+  ],
+  "release_zones": [
+    {"id": "release_open_paper", "name": "open paper", "visible": "one large quiet region of unprinted substrate"},
+    {"id": "release_pale_screen", "name": "pale screening", "visible": "a washed plate or sparse dots, still the same ink"},
+    {"id": "release_sparse_type", "name": "sparse support type", "visible": "microcopy only, no second headline"},
+    {"id": "release_dark_void", "name": "dark void", "visible": "unprinted black or deep ground as breathing room; F6 / F8 / F2-OP"}
+  ],
+  "unresolved_edges": [
+    {"id": "edge_none", "name": "none"},
+    {"id": "edge_image_fade", "name": "image fade into paper"},
+    {"id": "edge_cropped_glyph", "name": "inferable cropped character"},
+    {"id": "edge_broken_align", "name": "one broken alignment"},
+    {"id": "edge_open_contour", "name": "open contour"}
+  ],
+  "defaults": {
+    "tension_id": "tension_relaxed",
+    "focal_event_id": "focal_extreme_crop",
+    "release_zone_id": "release_open_paper",
+    "unresolved_edge_id": "edge_none"
+  }
+}

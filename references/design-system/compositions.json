@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "compositions": [
+    {"id": "composition_blank_poster", "layout": "blank poster", "family_hint": ["F2"], "dominant_subject_percent": [20, 50], "empty_paper_percent": [50, 75], "anchors": ["center", "edge"], "title_relation": "sparse title on open paper or locked to one object", "manual_gesture_limit": 1},
+    {"id": "composition_type_declaration", "layout": "type-led declaration", "family_hint": ["F8", "F2-F", "F2-JS"], "dominant_subject_percent": [55, 85], "empty_paper_percent": [20, 45], "anchors": ["center", "left"], "title_relation": "the word is the dominant object", "manual_gesture_limit": 1},
+    {"id": "composition_image_field", "layout": "image field", "family_hint": ["F9", "F7", "editorial cover"], "dominant_subject_percent": [55, 80], "empty_paper_percent": [20, 40], "anchors": ["bottom", "side"], "title_relation": "headline crosses or is cut by the image", "manual_gesture_limit": 1},
+    {"id": "composition_specimen_annotation", "layout": "specimen annotation", "family_hint": ["F4", "F7-QW"], "dominant_subject_percent": [45, 65], "empty_paper_percent": [35, 55], "anchors": ["center", "bottom"], "title_relation": "labels orbit one isolated specimen", "manual_gesture_limit": 1},
+    {"id": "composition_ruled_information", "layout": "ruled information poster", "family_hint": ["poster-studio"], "dominant_subject_percent": [40, 65], "empty_paper_percent": [30, 50], "anchors": ["top", "left"], "title_relation": "headline and facts share one rule", "manual_gesture_limit": 1},
+    {"id": "composition_archival_plate", "layout": "archival plate", "family_hint": ["F13-AR", "solar-polaroid"], "dominant_subject_percent": [40, 60], "empty_paper_percent": [35, 55], "anchors": ["card", "window"], "title_relation": "small title indexes the evidence window", "manual_gesture_limit": 1},
+    {"id": "composition_editorial_cover", "layout": "editorial cover", "family_hint": ["F2-B", "F5"], "dominant_subject_percent": [50, 75], "empty_paper_percent": [25, 45], "anchors": ["bottom", "right"], "title_relation": "headline crosses the dominant crop", "manual_gesture_limit": 1},
+    {"id": "composition_object_field", "layout": "object field", "family_hint": ["F12", "F4"], "dominant_subject_percent": [50, 75], "empty_paper_percent": [25, 50], "anchors": ["center", "edge"], "title_relation": "title locks to repeated objects", "manual_gesture_limit": 1},
+    {"id": "composition_overprint_collage", "layout": "overprint collage", "family_hint": ["F2-AC", "print two-plate"], "dominant_subject_percent": [55, 80], "empty_paper_percent": [20, 40], "anchors": ["diagonal", "edge"], "title_relation": "title participates in one visible overprint collision", "manual_gesture_limit": 1},
+    {"id": "composition_type_collision", "layout": "type collision", "family_hint": ["poster-studio grammar A"], "dominant_subject_percent": [45, 70], "empty_paper_percent": [25, 45], "anchors": ["center"], "title_relation": "oversized type crosses, covers, splits around, or locks to the object in both directions", "manual_gesture_limit": 1}
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "skill_name": "taxue-creative-style-print-contract",
+  "schema_version": 1,
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "用踏雪做一张关于凌晨便利店的竖版海报，不要指定风格。",
+      "expected_recipe": {
+        "ratio": "3:4",
+        "mode": "controlled_two_ink",
+        "palette": "palette_songyan_zhusha",
+        "text_language": "zh",
+        "visual_tension": "relaxed"
+      },
+      "must_not": ["third ink", "English slogan default", "yellowed paper", "cobalt terracotta"]
+    },
+    {
+      "id": 2,
+      "prompt": "只要朱砂单色，标题用我这句话「还开着」。",
+      "expected_recipe": {
+        "mode": "pure_one_ink",
+        "palette": "palette_zhusha",
+        "exact_text": "还开着"
+      },
+      "must_not": ["second ink", "translated title"]
+    },
+    {
+      "id": 3,
+      "prompt": "把我这张人物照片做成编辑封面，保留身份，不要抄参考排版。",
+      "expected_recipe": {
+        "representation": "faithful",
+        "layout": "composition_image_field",
+        "originality_min_changes": 4
+      },
+      "must_not": ["changed identity", "copied layout"]
+    },
+    {
+      "id": 4,
+      "prompt": "处暑，做一张纸本档案。",
+      "expected_recipe": {
+        "layout": "composition_archival_plate",
+        "focal_event": "focal_evidence_crossing",
+        "substrate": "substrate_archive_card"
+      },
+      "must_not": ["invented date", "decorative dots inside the card"]
+    },
+    {
+      "id": 5,
+      "prompt": "把「杠杆」做成概念海报。",
+      "expected_recipe": {
+        "layout": "composition_type_declaration",
+        "type_hierarchy": "type_typographic",
+        "visual_tension": "assertive"
+      },
+      "must_not": ["word as caption only", "illustration with bottom slogan"]
+    },
+    {
+      "id": 6,
+      "prompt": "周末市集日程海报，要信息清楚。",
+      "expected_recipe": {
+        "layout": "composition_ruled_information",
+        "intent": "announcement"
+      },
+      "must_not": ["fake sponsors", "QR code"]
+    },
+    {
+      "id": 7,
+      "prompt": "不要做旧，当代印刷即可。",
+      "expected_recipe": {
+        "style_direction": "contemporary_print"
+      },
+      "must_not": ["yellowed paper", "sepia", "distressed border"]
+    },
+    {
+      "id": 8,
+      "prompt": "标题就用「回南天」，不要翻译成英文。",
+      "expected_recipe": {
+        "exact_text": "回南天",
+        "text_language": "zh"
+      },
+      "must_not": ["Still Open", "field note 07", "English display default"]
+    }
+  ]
+}

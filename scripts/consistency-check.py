@@ -3,7 +3,7 @@
 """taxue-creative-style 一致性检查（只读，不改文件）。
 
 检查项：
-1. SKILL.md §1 速查表 9 家族变体清单
+1. SKILL.md §1 速查表家族变体清单（家族数量开放，不以 9 为上限）
 2. 各家族文件「变体索引」表与速查表是否一致（含状态图标）
 3. References 表声称的变体数与速查表是否一致
 4. verification-ledger.md 台账行数是否等于速查表变体总数
@@ -22,17 +22,18 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SKILL = (ROOT / "SKILL.md").read_text(encoding="utf-8")
 
-FAMILY_FILES = {
-    "F1": "F1-ink-wash.md",
-    "F2": "F2-blank-poster.md",
-    "F3": "F3-city.md",
-    "F4": "F4-healing.md",
-    "F5": "F5-oriental.md",
-    "F6": "F6-atmosphere.md",
-    "F7": "F7-photography.md",
-    "F8": "F8-concept-poster.md",
-    "F9": "F9-photo-art.md",
-}
+def discover_family_files():
+    """style-library/F{n}-{slug}.md → {F{n}: filename}，家族数开放。"""
+    files = {}
+    lib = ROOT / "references" / "style-library"
+    for p in sorted(lib.glob("F*-*.md")):
+        m = re.match(r"(F\d+)-", p.name)
+        if m:
+            files[m.group(1)] = p.name
+    return files
+
+
+FAMILY_FILES = discover_family_files()
 STATUS = {"✅": "✅", "⚠️": "⚠️", "🔶": "🔶"}
 
 
@@ -118,7 +119,7 @@ def references_counts():
     计数却写 11 对得上，名单少于速查表）。"""
     out = {}
     for line in SKILL.splitlines():
-        m = re.match(r"\| `references/style-library/(F\d)-[\w-]+\.md` \| (F\d)[^|]*?(\d+) 变体[（(](.*?)[）)]", line)
+        m = re.match(r"\| `references/style-library/(F\d+)-[\w-]+\.md` \| (F\d+)[^|]*?(\d+) 变体[（(](.*?)[）)]", line)
         if m:
             fam, count, names = m.group(2), int(m.group(3)), m.group(4)
             out[fam] = (count, reference_names(names))
@@ -135,11 +136,15 @@ def skill_summary_numbers():
     speed = speed_table()
     total = sum(len(v) for v in speed.values())
 
-    m = re.search(r"^## 1\. 风格库（9 家族，(\d+) 个变体）", SKILL, re.M)
+    m = re.search(r"^## 1\. 风格库（(\d+) 家族，(\d+) 个变体）", SKILL, re.M)
     if not m:
-        errors.append("SKILL §1 标题锚点失配（「风格库（9 家族，N 个变体）」被改动）")
-    elif int(m.group(1)) != total:
-        errors.append(f"SKILL §1 标题称 {int(m.group(1))} 个变体，速查表实际 {total}")
+        errors.append("SKILL §1 标题锚点失配（「风格库（N 家族，M 个变体）」被改动）")
+    else:
+        nfam, nvar = int(m.group(1)), int(m.group(2))
+        if nfam != len(speed):
+            errors.append(f"SKILL §1 标题称 {nfam} 家族，速查表实际 {len(speed)}")
+        if nvar != total:
+            errors.append(f"SKILL §1 标题称 {nvar} 个变体，速查表实际 {total}")
 
     refs = references_counts()
     for fam, vs in speed.items():
@@ -166,20 +171,24 @@ def ledger_header_counts(speed):
     历史教训：F1 曾标题写（15）实际 14 行；用途行写 62 实际 61。"""
     errors = []
     ledger = (ROOT / "references" / "verification-ledger.md").read_text(encoding="utf-8")
-    fam_of = {"F1": "F1 笔意水墨", "F2": "F2 留白海报", "F3": "F3 城市建筑", "F4": "F4 治愈插画",
-              "F5": "F5 东方古典", "F6": "F6 氛围实验", "F7": "F7 写实摄影", "F8": "F8 概念海报", "F9": "F9 照片转艺术"}
     total = sum(len(v) for v in speed.values())
-    for fam, label in fam_of.items():
-        m = re.search(rf"^### {re.escape(label)}[^\n]*?（(\d+)）", ledger, re.M)
-        if not m:
-            errors.append(f"台账缺少 {label} 族标题（或「（N）」计数格式失配）")
+    headers = re.findall(r"^### (F\d+ [^\n（]+)（(\d+)）", ledger, re.M)
+    found = {}
+    for label, n in headers:
+        fam = label.split()[0]
+        found[fam] = (label, int(n))
+    for fam, vs in speed.items():
+        if fam not in found:
+            errors.append(f"台账缺少 {fam} 族标题（或「（N）」计数格式失配）")
             continue
-        declared = int(m.group(1))
+        label, declared = found[fam]
         nxt = re.search(rf"^### {re.escape(label)}[^\n]*?（\d+）\n(.*?)(?=^### |\Z)", ledger, re.M | re.S)
         body = nxt.group(1) if nxt else ""
         actual_rows = len(re.findall(r"^\| (?:[A-Z0-9][A-Z0-9-]*) \| (?:✅|默认|🔶|⚠️)", body, re.M))
         if declared != actual_rows:
             errors.append(f"台账 {label} 标题称 {declared} 个，实际表体 {actual_rows} 行")
+        if declared != len(vs):
+            errors.append(f"台账 {label} 标题称 {declared} 个，速查表 {len(vs)} 个")
     um = re.search(r"^> 用途：(\d+) 个变体", ledger, re.M)
     if not um:
         errors.append("台账「用途」行锚点失配（「用途：N 个变体」被改动）")
@@ -350,8 +359,10 @@ def variant_trio():
 def main():
     errors = []
     speed = speed_table()
-    if len(speed) != 9:
-        errors.append(f"SKILL 速查表家族数 != 9: {sorted(speed)}")
+    if set(speed) != set(FAMILY_FILES):
+        errors.append(
+            f"SKILL 速查表家族 {sorted(speed)} != style-library 文件 {sorted(FAMILY_FILES)}"
+        )
 
     total = sum(len(v) for v in speed.values())
     for fam, expected in speed.items():
@@ -415,8 +426,21 @@ def main():
         for e in errors:
             print(" -", e)
         return 1
-    print(f"OK: 9 家族 / {total} 变体，SKILL 速查表 = 家族索引 = References 计数 = 验证台账；"
-          f"叙述性数字断言通过（标题/名单/gallery/台账族计数）；正文状态行同步通过；占位符配平 + 三件套检查通过")
+    from subprocess import run
+
+    ds = run(
+        [sys.executable, str(ROOT / "scripts" / "validate_design_system.py")],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+    )
+    if ds.returncode != 0:
+        print("FAIL")
+        print(ds.stderr.strip() or ds.stdout.strip())
+        return 1
+    print(f"OK: {len(speed)} 家族 / {total} 变体，SKILL 速查表 = 家族索引 = References 计数 = 验证台账；"
+          f"叙述性数字断言通过（标题/名单/gallery/台账族计数）；正文状态行同步通过；占位符配平 + 三件套检查通过；"
+          f"{ds.stdout.strip()}")
     return 0
 
 

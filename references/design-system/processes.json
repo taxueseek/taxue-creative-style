@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "processes": [
+    {"id": "process_ink_wash", "name": "水墨", "family_hint": ["F1"], "visible": "xuan fiber, flying white, wet-dry density; paper shows through", "counts_as_print": false},
+    {"id": "process_woodblock", "name": "木版套色", "family_hint": ["F14-YZ", "folk print"], "visible": "flat plates, knife chatter, slight misregister between color blocks", "counts_as_print": true},
+    {"id": "process_movable_type", "name": "活字凸印", "family_hint": ["type-led", "F8 light ground"], "visible": "impressed glyphs, ink squash at stroke edges, paper bite", "counts_as_print": true},
+    {"id": "process_lithography", "name": "石印", "family_hint": ["minguo magazine"], "visible": "crayon grain, even midtones, period-correct but not yellowed unless asked", "counts_as_print": true},
+    {"id": "process_silkscreen", "name": "丝网", "family_hint": ["F2", "F8", "poster-studio"], "visible": "flat ink fields, mesh, mild bleed, no photographic depth", "counts_as_print": true},
+    {"id": "process_spot_offset", "name": "专色胶印", "family_hint": ["contemporary editorial default"], "visible": "clean plate separation or medium screening; paper remains a shape", "counts_as_print": true},
+    {"id": "process_papercut", "name": "剪纸镂空", "family_hint": ["F10"], "visible": "cut edges, layered paper, light through voids", "counts_as_print": false},
+    {"id": "process_puppetry", "name": "皮影灯屏", "family_hint": ["F11"], "visible": "backlit hide, joints, mineral color", "counts_as_print": false},
+    {"id": "process_glaze", "name": "釉面", "family_hint": ["F12"], "visible": "fired surface, kiln variation, not a paper poster", "counts_as_print": false},
+    {"id": "process_photography", "name": "摄影", "family_hint": ["F7", "photo-studio", "F13-PL"], "visible": "lens, available light, honest material; ink plates do not apply", "counts_as_print": false}
+  ],
+  "defaults": {
+    "print_process_id": "process_spot_offset",
+    "poster_process_id": "process_silkscreen",
+    "contemporary_not_vintage": true
+  }
+}

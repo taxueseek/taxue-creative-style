@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "voices": [
+    {"id": "voice_editorial", "name": "editorial", "faces": ["Song", "Kai"], "role": "display phrase, poetic title, intimate statement"},
+    {"id": "voice_utility", "name": "utility", "faces": ["Heiti condensed", "monospace CJK"], "role": "labels, dates, credits, coordinates"},
+    {"id": "voice_calligraphic", "name": "calligraphic", "faces": ["brush", "clerical", "seal"], "role": "the character is an object, not a caption"}
+  ],
+  "hierarchies": [
+    {"id": "type_poetic", "name": "Poetic", "voices": ["voice_editorial", "voice_utility"], "scale_jump": [5, 12], "use_for": ["reflective language", "F1", "F2-B"]},
+    {"id": "type_civic", "name": "Civic", "voices": ["voice_utility"], "scale_jump": [5, 12], "use_for": ["events", "announcements", "poster-studio grammar A sans"]},
+    {"id": "type_archival", "name": "Archival", "voices": ["voice_editorial", "voice_utility"], "scale_jump": [4, 8], "use_for": ["F13", "solar-polaroid", "specimen"]},
+    {"id": "type_calligraphic", "name": "Calligraphic", "voices": ["voice_calligraphic", "voice_utility"], "scale_jump": [6, 12], "use_for": ["F2-F", "F2-JS", "F1-TX"]},
+    {"id": "type_typographic", "name": "Typographic", "voices": ["voice_editorial", "voice_utility"], "scale_jump": [6, 12], "use_for": ["F8", "phrase is the subject"]}
+  ],
+  "defaults": {
+    "hierarchy_id": "type_poetic",
+    "invented_text_language": "zh",
+    "invented_display_words": [2, 8],
+    "preserve_user_text": true,
+    "max_voices": 3
+  },
+  "rules": [
+    "Default invented display text is a short Chinese observation (object + visible state), never an English slogan and never a stock blessing reused across unrelated outputs.",
+    "Preserve user-supplied wording exactly; do not translate unless asked.",
+    "Calligraphic variants may keep brush glyphs in-image; precise multi-line Chinese still prefers type-off.",
+    "One dramatic scale jump. No gradient type, outline, drop shadow, or 3D inflated letters."
+  ]
+}
