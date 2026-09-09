@@ -24,8 +24,9 @@
 | 技能 | 一句话 | 仓库 |
 |---|---|---|
 | **踏雪创意风格**（影像风格引擎） | 14 个家族、77 个变体：按风格出图、改提示词、从零写、记住偏好 | **你在这里** · [taxue-creative-style](https://github.com/taxueseek/taxue-creative-style) |
-| **半调海报**（印刷质感引擎） | 11 种风格 + 1 个变体：一句话、一个主题或一张照片，做成印刷感封面 | [taxue-halftone](https://github.com/taxueseek/taxue-halftone) |
+| **半调海报**（印刷质感引擎） | 12 种风格 + 2 个变体：一句话、一个主题或一张照片，做成印刷感封面 | [taxue-halftone](https://github.com/taxueseek/taxue-halftone) |
 | **节气拍立得**（节气创作引擎） | 节气、节日、物候短句，推出有记忆点的海报、纸本档案与拍立得 | [taxue-solar-polaroid](https://github.com/taxueseek/taxue-solar-polaroid) |
+| **踏雪生图**（元提示词库） | 四种类型 + 四种工作流 + 机械填槽 + 一次验收 | WorkBuddy 专属 · [taxue-imagegen](https://github.com/taxueseek/taxue-imagegen) |
 
 ## 精选作品展示
 
