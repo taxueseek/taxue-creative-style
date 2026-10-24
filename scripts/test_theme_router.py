@@ -15,7 +15,7 @@ def test_family_count_open():
     assert m, "SKILL §1 标题必须是开放计数，不能写死「9 家族」"
     nfam, nvar = int(m.group(1)), int(m.group(2))
     assert nfam >= 14, nfam
-    assert nvar == 77, nvar
+    assert nvar == 78, nvar
     lib = list((ROOT / "references" / "style-library").glob("F*-*.md"))
     assert len(lib) == nfam, (len(lib), nfam)
 
@@ -69,7 +69,7 @@ def test_consistency_check():
         text=True,
     )
     assert r.returncode == 0, r.stdout + r.stderr
-    assert "14 家族 / 77 变体" in r.stdout
+    assert "14 家族 / 78 变体" in r.stdout
 
 
 if __name__ == "__main__":

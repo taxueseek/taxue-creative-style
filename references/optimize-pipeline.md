@@ -141,7 +141,7 @@
 5. ✅ 归档 + 偏好双写（按 memory-protocol.md）
 6. ✅ 出图验证待办（按 imagegen-routing.md，除非用户只要文本）
 
-## 步骤 5：出图验证（imagegen-routing.md），除非用户只要文本。同时按 memory-protocol.md 写版本归档。
+## 步骤 5：出图验证（imagegen-routing.md 一次出图纪律），除非用户只要文本。预飞完成后再出图；默认一张，blocker 才允许一次定向修。同时按 memory-protocol.md 写版本归档。
 
 ---
 

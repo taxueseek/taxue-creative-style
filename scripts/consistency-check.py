@@ -226,6 +226,12 @@ def spec_conflicts():
     pc = (ROOT / "references" / "prompt-craft.md").read_text(encoding="utf-8")
     if re.search(r"锚点参考：[^。]*≤5 色", pc):
         errors.append("prompt-craft 量化锚点仍是 ≤5 色（默认必须 ≤4，例外须显式标注）")
+    if "规格留在自检、不进 prompt" in pc:
+        errors.append("prompt-craft 仍把 blocker 规格留到自检（一次出图：必须进锁定句）")
+    if "出图对比后再加下一个" in pc:
+        errors.append("prompt-craft 仍要求出图对比加词（一次出图禁止为对比再出一张）")
+    if "一次出图预飞" not in pc:
+        errors.append("prompt-craft 缺一次出图预飞清单")
     sp = (ROOT / "references" / "scenario-pack.md").read_text(encoding="utf-8")
     if "只推荐已验证 / 默认变体与已固化参考模板" not in sp:
         errors.append("scenario-pack 门控基线缺失（已验证/默认/已固化参考模板可推荐）")
@@ -242,6 +248,8 @@ def spec_conflicts():
     rt = (ROOT / "references" / "imagegen-routing.md").read_text(encoding="utf-8")
     if "2048x816" not in rt:
         errors.append("imagegen-routing 比例真源缺 5:2 行（默认家族 F8-V8 查不到比例）")
+    if "一次出图纪律" not in rt:
+        errors.append("imagegen-routing 缺一次出图纪律（禁止先出草稿再优化）")
     # 交付完整性计数同步（SKILL 硬约束 #2 vs optimize-pipeline 交付完整性检查，历史教训：加第 4 项后 SKILL 仍写 5 项）
     if "交付完整性 6 项" not in SKILL or "矛盾扫描结果 /" not in SKILL:
         errors.append("SKILL 硬约束 #2 交付完整性应为 6 项且含矛盾扫描结果（与 optimize-pipeline 同步）")
